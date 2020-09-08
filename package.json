@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"pro": "parcel build index.html --no-source-maps --public-url ./"
+	},
+	"parcelCleanPaths": [
+		"dist",
+		".cache"
+	],
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"sass": "^1.26.10"
+	}
+}
